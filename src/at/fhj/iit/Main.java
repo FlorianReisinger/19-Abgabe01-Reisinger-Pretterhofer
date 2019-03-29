@@ -12,8 +12,11 @@ public class Main {
 		calc.addValue(16);
 		
 		// add other integers
+		calc.addValue(19);
+		calc.addValue(11);
 		
 		// output lowest number 
+		System.out.printf("Lowest: %d\n", calc.getMinimum());
 		
 		// output highest number
 		
