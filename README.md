@@ -1,2 +1,14 @@
 # 19-Abgabe01-Reisinger-Pretterhofer
-Groupwork UE02 - Thomas Pretterhofer and Florian Reisinger
+## Topic
+
+  
+## Functionality
+ 
+  
+## ToDo
+
+  ## Final Assignment
+  
+
+  ### AND final version includes
+  
