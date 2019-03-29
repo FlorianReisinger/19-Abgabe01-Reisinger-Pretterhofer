@@ -38,11 +38,11 @@ public class CalculatorImpl implements Calculator  {
 
 	//Returns the sum of all Integers of the list
 	public int sum() {
-		int temp = 0;
-		for(int x = 0; x < numbersList.size(); x++) {
-			temp += numbersList.get(x);
+		int summary = 0;
+		for (int index = 0; index < numbersList.size(); index++) {
+			summary += numbersList.get(index);
 		}
-		return temp;
+		return summary;
 	}
 	
 	
