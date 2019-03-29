@@ -22,6 +22,7 @@ public class Main {
 		System.out.printf("Highest: %d\n", calc.getMaximum());
 		
 		// output sum of all numbers
+		System.out.printf("Summary: %d\n", calc.sum());
 
 	}
 
