@@ -8,7 +8,7 @@ public class Main {
 		Calculator calc = new CalculatorImpl();
 		
 		calc.addValue(20);	// currently highest number
-		calc.addValue(4);	// currently lowester number
+		calc.addValue(4);	// currently lowest number
 		calc.addValue(16);
 		
 		// add other integers
@@ -19,6 +19,7 @@ public class Main {
 		System.out.printf("Lowest: %d\n", calc.getMinimum());
 		
 		// output highest number
+		System.out.printf("Highest: %d\n", calc.getMaximum());
 		
 		// output sum of all numbers
 

@@ -22,7 +22,13 @@ public class CalculatorImpl implements Calculator  {
 	
 	//Getter maximum
 	public int getMaximum() {
-		return 0;
+		int temp = numbersList.get(0);
+		for(int x = 1; x < numbersList.size(); x++) {
+			if(temp <= numbersList.get(x)){
+				temp = numbersList.get(x);
+			}
+		}
+		return temp;
 	}
 	
 	//Add a values to the Integer-List
